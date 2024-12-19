@@ -16,6 +16,6 @@ export class OrganizationService {
     const newOrganization =
       await this.organizationRepository.create(organization);
 
-    return organization;
+    return newOrganization;
   }
 }

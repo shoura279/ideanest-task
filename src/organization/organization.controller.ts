@@ -26,5 +26,4 @@ export class OrganizationController {
     }
     return createOrganizationResponse;
   }
-  
 }
